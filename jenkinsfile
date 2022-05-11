@@ -1,11 +1,11 @@
 node {
-    stage{"build"} {
-         //
+    stage{'build'} {
+        echo'this is my build stage'
      }
-    stage{"test"} {
-        //
+    stage{'test'} {
+        echo'this is my test stage'
      }
-    stage{"deploy"} {
-        //
+    stage{'deploy'} {
+        echo'this is my deploy stage'
      }
 }
